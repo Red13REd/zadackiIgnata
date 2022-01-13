@@ -1,0 +1,58 @@
+.all {
+    position: relative;
+    display: flex;
+    max-width: 400px;
+    margin-left: 40px;
+    width: 100%;
+   min-height: 100px;
+}
+
+.bodyMessage {
+
+    left: 100px;
+    border-radius: 25px 25px 25px 0px;
+    background-color: rgba(39, 130, 229, 0.86);
+    padding: 0px 0px 0px 10px;
+    width: 50%;
+    word-break: break-word;
+}
+
+
+
+.bodyMessage >p{
+    margin: 0px;
+}
+
+
+.time {
+    position: relative;
+    left: 150px;
+    bottom: 10px;
+    padding: 10px 0px 0px 0px;
+}
+
+
+.img {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.imgBlock {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 5px;
+}
+
+.tri {
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 10px solid rgba(39, 130, 229, 0.86);
+    border-left: 10px solid transparent;
+}
