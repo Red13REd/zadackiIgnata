@@ -1,12 +1,19 @@
-.superInput {
-
+.superInput:focus {
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: lightblue;
+    margin-top: 10px
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border-radius: 4px;
+    border: 3px solid red;
+    background: darkred;
+    box-sizing: border-box;
+
+
 }
 
 .error {
-    color: red;
+    color: tomato;
 }

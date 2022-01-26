@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {GreetingContainer} from './GreetingContainer'
 import {v1} from "uuid";
 
+
 // types
 export type UserType = {
     _id: string // need to fix any
@@ -15,7 +16,6 @@ function HW3() {
     const addUserCallback = (name: string) => { // need to fix any
         setUsers([...users,{_id:v1(), name}]) // need to fix
     }
-    console.log(users)
     return (
         <div>
             <hr/>

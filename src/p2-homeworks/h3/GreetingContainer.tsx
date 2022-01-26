@@ -1,10 +1,10 @@
-import React, {ChangeEvent, useState,KeyboardEvent} from 'react'
+import React, {ChangeEvent, useState, KeyboardEvent,MouseEvent} from 'react'
 import Greeting from './Greeting'
 import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
     users: Array<UserType> // need to fix any
-    addUserCallback:(name:string)=> void // need to fix any
+    addUserCallback: (name: string) => void // need to fix any
 }
 
 // более простой и понятный для новичков
@@ -17,35 +17,39 @@ export const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, 
     const [error, setError] = useState<string>("Не может быть пустым") // need to fix any
 
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
-         if (e.currentTarget.value !== ""){
-            setName(e.currentTarget.value)
-            setError("")
-         }else {
-             setError("Не может быть пустым")
-         }// need to fix
+        setName(e.currentTarget.value)
+       // need to fix
     }
 
     const onKeyPressAddTask = (e: KeyboardEvent<HTMLInputElement>) => {
-      e.ctrlKey && addUser()
+        e.ctrlKey && addUser()
+        setError("")
     }
 
     const addUser = () => {
-        addUserCallback(name)
-        setName("")// need to fix
+        if (name.trim() === "") {
+            setError("Не может быть пустым")
+
+        } else {
+            addUserCallback(name.trim())
+            setName("")
+
+        }
+        // need to fix
     }
 
-        const totalUsers = users.length // need to fix
+    const totalUsers = users.length // need to fix
 
-        return (
-            <Greeting
-                name={name}
-                setNameCallback={setNameCallback}
-                addUser={addUser}
-                error={error}
-                totalUsers={totalUsers}
-                onKeyPressAddTask={onKeyPressAddTask}
-            />
-        )
-    }
+    return (
+        <Greeting
+            name={name}
+            setNameCallback={setNameCallback}
+            addUser={addUser}
+            error={error}
+            totalUsers={totalUsers}
+            onKeyPressAddTask={onKeyPressAddTask}
+        />
+    )
+}
 
 

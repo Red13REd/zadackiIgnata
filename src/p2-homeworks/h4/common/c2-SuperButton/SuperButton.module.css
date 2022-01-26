@@ -1,7 +1,35 @@
 .default {
+    margin-top: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+.default:hover {
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 
 }
 
 .red {
-    background: red;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+
 }
+
+.red:hover{
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: darkred;
+    border: none;
+    cursor: pointer;
+
+}
+
