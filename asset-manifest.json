@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/zadackiIgnata/static/css/main.5b64fd2a.css",
-    "main.js": "/zadackiIgnata/static/js/main.767fa9dd.js",
+    "main.css": "/zadackiIgnata/static/css/main.6b8ed112.css",
+    "main.js": "/zadackiIgnata/static/js/main.950d775c.js",
     "index.html": "/zadackiIgnata/index.html",
-    "main.5b64fd2a.css.map": "/zadackiIgnata/static/css/main.5b64fd2a.css.map",
-    "main.767fa9dd.js.map": "/zadackiIgnata/static/js/main.767fa9dd.js.map"
+    "main.6b8ed112.css.map": "/zadackiIgnata/static/css/main.6b8ed112.css.map",
+    "main.950d775c.js.map": "/zadackiIgnata/static/js/main.950d775c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b64fd2a.css",
-    "static/js/main.767fa9dd.js"
+    "static/css/main.6b8ed112.css",
+    "static/js/main.950d775c.js"
   ]
 }
