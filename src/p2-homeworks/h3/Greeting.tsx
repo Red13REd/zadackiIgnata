@@ -1,5 +1,7 @@
 import React, {ChangeEvent,KeyboardEvent} from 'react'
 import s from './Greeting.module.css'
+import {inspect} from "util";
+
 
 type GreetingPropsType = {
     name: string // need to fix any
@@ -21,7 +23,7 @@ const Greeting: React.FC<GreetingPropsType> = (
         <div>
             <input onKeyPress={onKeyPressAddTask} value={name} onChange={setNameCallback} className={inputClass}/>
             <button disabled={disabled} onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
+            <span style={{color:"white"}} >{totalUsers}</span>
             <div style={{color:"red"}}>{error}</div>
         </div>
     )

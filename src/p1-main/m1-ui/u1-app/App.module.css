@@ -1,6 +1,9 @@
 .App {
+
+    height: 100em;
     background-color: darkslategrey;
+    background-size: cover;
+    background-image: url("https://oir.mobi/uploads/posts/2021-03/1616610153_47-p-sinii-fon-kosmos-53.jpg");
     font-family: Roboto;
-    height: 1000px;
 
 }

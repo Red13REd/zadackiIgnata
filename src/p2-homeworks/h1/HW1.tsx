@@ -12,11 +12,14 @@ const messageData: messageDataPropsType = {
 
 function HW1() {
     return (
-        <div>
-            <hr/>
-            homeworks 1
 
-            should work (должно работать)
+        <div >
+            <div style={{color:"white"}}>
+                homeworks 1
+
+                should work (должно работать)
+            </div>
+            <hr/>
             <hr/>
             <Message
                 avatar={messageData.avatar}

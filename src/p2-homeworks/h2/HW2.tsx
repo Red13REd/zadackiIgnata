@@ -40,7 +40,7 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)) // need to fix any
 
     return (
-        <div>
+        <div  style={{color:"white"}}>
             <hr/>
             homeworks 2
 
