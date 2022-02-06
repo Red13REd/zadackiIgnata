@@ -1,6 +1,5 @@
 {
   "name": "homeworks",
-  "homepage": "https://red13red.github.io/zadackiIgnata",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,6 +21,7 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.0"
   },
+  "homepage": "https://red13red.github.io/zadackiIgnata",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
