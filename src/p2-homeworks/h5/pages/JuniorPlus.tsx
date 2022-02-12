@@ -3,8 +3,8 @@ import React from 'react'
 
 function JuniorPlus() {
     return (
-        <div>
-          пусто
+        <div style={{color:"white"}}>
+          Пусто
 
         </div>
     )

@@ -1,0 +1,15 @@
+html {
+
+}
+
+.gifContainer {
+
+    background-image: url("https://camo.githubusercontent.com/1973d7f8c0c4ec7a95d6149079b8bae1ffe27a2cbcf2d03faf4fa2a254292a95/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3134755133634f4674654461552f67697068792e676966");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+
