@@ -3,7 +3,7 @@
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-
+    margin-right: 10px;
 }
 
 .default:hover {
@@ -24,7 +24,7 @@
 
 }
 
-.red:hover{
+.red:hover {
     padding: 5px 10px;
     margin-top: 10px;
     background-color: darkred;
